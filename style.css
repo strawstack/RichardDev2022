@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html, body, #App {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3rem;
+    color: #444;
+}
+
+    #App {
+        display: grid;
+        grid-template-columns: 1fr minmax(0px, 800px) 1fr;
+    }
+
+        .CenterColumn {
+            grid-column: 2 / 3;
+            display: grid;
+            grid-template-rows: auto repeat(8, 1fr) auto;
+            grid-row-gap: 30px;
+            position: relative;
+            margin: 0px 30px;
+        }
+
+            .Intro {
+                margin-top: 100px;
+            }
+
+            .ExternalLink {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                background-image: url(square-solid.svg);
+            }
+
+            .Section {
+                display: grid;
+                grid-template: 'a b';
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 30px;
+            }
+
+                .AreaOne {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .AreaTwo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .AreaTwo Img {
+                    width: 100%;
+                    height: auto;
+                    max-width: 400px;
+                }
+
+                .Section:nth-child(2n + 1) .AreaOne {
+                    grid-area: b;
+                }
+
+                .Section:nth-child(2n + 1) .AreaTwo {
+                    grid-area: a;
+                }
+
+                .TitleAndLink {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #444;
+                    transition: color 0.2s;
+                }
+
+                .TitleAndLink svg>path {
+                    transition: fill 0.2s;
+                }
+
+                .TitleAndLink:hover {
+                    color: MediumSlateBlue;
+                }
+
+                .TitleAndLink:hover svg>path {
+                    fill: MediumSlateBlue;
+                }
+
+                    .TitleAndLink h2 {
+                        margin-right: 10px;
+                    }
+
+            .Social {
+                background: #333;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 8px;
+            }
+
+                .Social a svg {
+                    fill: #FFF;
+                    transition: fill 0.2s;
+                }
+
+                .Social a:hover svg {
+                    fill: MediumSlateBlue;
+                }
+
+.Footer {
+    height: 20px;
+    background: #333;
+    margin: 70px 0px 100px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Section {
+        grid-template: 'a' 'b';
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .Section:nth-child(2n + 1) .AreaOne {
+        grid-area: a;
+    }
+
+    .Section:nth-child(2n + 1) .AreaTwo {
+        grid-area: b;
+    }
+
+    .Social {
+        background: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+}
