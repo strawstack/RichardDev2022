@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Run for the Toad",
+        "date": "29 Sept 2012",
+        "distance_km": 50,
+        "time": "3:59:16",
+        "stages": null
+    },
+    {
+        "name": "Canadian Death Race",
+        "date": "3 Aug 2013",
+        "distance_km": 125,
+        "time": "17:53:58",
+        "stages": null
+    },
+    {
+        "name": "Grand 2 Grand",
+        "date": "21 Sept 2014",
+        "distance_km": 268,
+        "time": "38:17:49",
+        "stages": 6
+    },
+    {
+        "name": "Blackfoot Ultra",
+        "date": "30 May 2015",
+        "distance_km": 100,
+        "time": "9:23:48",
+        "stages": null
+    },
+    {
+        "name": "Dragon's Back Race",
+        "date": "22 Jun 2015",
+        "distance_km": 181,
+        "time": "64:12:34",
+        "stages": 3,
+        "finished": false
+    },
+    {
+        "name": "Al Andalus Ultimate Trail",
+        "date": "6 Jul 2015",
+        "distance_km": 250,
+        "time": "20:32:12",
+        "stages": 5
+    },
+    {
+        "name": "Blackfoot Ultra",
+        "date": "28 May 2016",
+        "distance_km": 100,
+        "time": "10:58:00",
+        "stages": null
+    },
+    {
+        "name": "Canadian Death Race",
+        "date": "30 Jul 2016",
+        "distance_km": 125,
+        "time": "16:22:59",
+        "stages": null
+    },
+    {
+        "name": "Bad Beaver",
+        "date": "01 Aug 2017",
+        "distance_km": 150,
+        "time": "19:43:00",
+        "stages": 3
+    },
+    {
+        "name": "Midnight Moose",
+        "date": "25 Sept 2018",
+        "distance_km": 100,
+        "time": "17:07:00",
+        "stages": null
+    },
+    {
+        "name": "Grand 2 Grand",
+        "date": "16 Sept 2022",
+        "distance_km": 275,
+        "time": "50:47:59",
+        "stages": 6
+    },
+    {
+        "name": "SF Marathon Ultra",
+        "date": "26 July 2022",
+        "distance_km": 84,
+        "time": "9:05:15",
+        "stages": null
+    },
+    {
+        "name": "SF Marathon Ultra",
+        "date": "26 July 2023",
+        "distance_km": 84,
+        "time": "8:11:08",
+        "stages": null
+    },
+    {
+        "name": "Swiss Peaks 100k",
+        "date": "8 Sept 2023",
+        "distance_km": 100,
+        "time": "27:03:11",
+        "stages": null
+    }
+]
